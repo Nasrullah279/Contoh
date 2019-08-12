@@ -1,0 +1,40 @@
+table,tr,td{ 
+	background-color: LightGoldenRodYellow ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+ }
+ .h{
+    border: 8px groove blueviolet;
+    padding: 20px;
+ }
+ .posisi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+	bottom: 0;
+ }
+ body{
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+	background-size: 1400px auto;
+ }
+
+ *{margin:0px auto;}
+ #header{
+	 background:#0cf;
+	 padding:5px;
+ }
+ #footer{
+	 height:50px;
+	 line-height: 50px;
+	 background:#333;
+	 color:#fff;
+ }

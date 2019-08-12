@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Form Project CRUD</title>
+     </head>
+        <body>
+            <form action="formprocess3.php" method="post">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" placeholder="Nama Lengkap"/> </td>
+                    </tr>
+                        <tr>
+                            <td> Greetins </td>
+                            <td>
+                                <select name="greeting">
+                                    <option value="Hello"> Hello </option>
+                                    <option value="Hola"> Hola</option>
+                                    <option value="Mosi-Mosi">Mosi-Mosi</option>
+                                </select>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td> Item Type</td>
+                          <td>
+                              <input type="radio" name="type" value="movie" checked="checked" /> Movie <br/>
+                              <input type="radio" name="type" value="actor" /> Actor <br/>
+                              <input type="radio" name="type" value="director" /> Director <br/>
+                              <input type="radio" name="type" value="Drama" /> Dramma <br/>
+                              <input type="radio" name="type" value="Animator" /> Animator <br/>
+                          </td>    
+                    </tr>
+                        <td> </td>
+                    <tr>
+                        <td> 
+                            <input type="checkbox" name="debug" checked="checked"/> Display debug info
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input type="submit" name="submit" value="Submit" />
+                            <input type="submit" name="submit" value="Add" />
+                        </td>
+                    </tr>
+                </table>
+            </form>       
+        </body>
+</html>
